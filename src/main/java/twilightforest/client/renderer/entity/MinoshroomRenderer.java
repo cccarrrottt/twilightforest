@@ -43,6 +43,7 @@ public class MinoshroomRenderer extends HumanoidMobRenderer<Minoshroom, Minoshro
 				BlockState blockstate = Blocks.RED_MUSHROOM.defaultBlockState(); // TF: hardcode mushroom state
 				int i = LivingEntityRenderer.getOverlayCoords(entity, 0.0F);
 				ms.pushPose();
+				this.getParentModel().cow_body.translateAndRotate(ms);
 				ms.translate(0.2F, -0.35F, 0.5D);
 				ms.mulPose(Axis.YP.rotationDegrees(-48.0F));
 				ms.scale(-1.0F, -1.0F, 1.0F);
