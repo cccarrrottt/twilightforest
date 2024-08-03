@@ -40,7 +40,7 @@ public class NewMinoshroomRenderer extends HumanoidMobRenderer<Minoshroom, NewMi
 		public void render(PoseStack ms, MultiBufferSource buffers, int light, Minoshroom entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
 			if (!entity.isBaby() && !entity.isInvisible()) {
 				BlockRenderDispatcher blockrendererdispatcher = Minecraft.getInstance().getBlockRenderer();
-				BlockState blockstate = Blocks.RED_MUSHROOM.defaultBlockState(); // TF: hardcode mushroom state
+				BlockState blockstate = Blocks.BROWN_MUSHROOM.defaultBlockState(); // TF: hardcode mushroom state
 				int i = LivingEntityRenderer.getOverlayCoords(entity, 0.0F);
 				ms.pushPose();
 				ms.translate(0.2F, -0.35F, 0.5D);
