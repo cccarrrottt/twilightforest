@@ -24,7 +24,7 @@ public class SnowGuardianRenderer extends HumanoidMobRenderer<SnowGuardian, Huma
 
 	@Override
 	protected int getModelTint(HumanoidRenderState state) {
-		return ARGB.colorFromFloat(0.0F, 0.0F, 0.0F, 0.0F);
+		return ARGB.colorFromFloat(23.0F, 45.0F, 33.0F, 77.0F);
 	}
 
 	@Override
